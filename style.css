@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    background-color: beige
+}
+
+/*-- background img --*/
+header {
+    background-image: url(background-banking-blur-404159.jpg);
+ 
+    /*-- height --*/
+    height: 700px;  
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+
+}
+
+
+ /*-- list --*/
+
+.list {
+    list-style: none;
+    float: right;
+    padding-right: 40px;
+    font-weight: bolder;
+    display: block;}
+
+
+.HM { padding: 20px;}
+
+.CT {padding: 20px;}
+
+.AB {padding: 20px;}
+
+
+
+/*-- container --*/
+
+
+.container { padding: 20px;}
+
+
+
+
+
+
+ /*-- social media icon --*/
+.soc-med {
+    float: right;
+    padding-bottom: 40px;
+    padding-right: 30px
+}
+
+
+
+.hero-head {
+    position: absolute;
+    font-family: 
+    
+}
+
+
+
+.copyryt {
+    font-size: 15px
+}
+
+.wwd {
+    padding-bottom: 20px;
+}
+
+.first-P {
+    padding-bottom: 20%;
+}
