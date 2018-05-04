@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -14,8 +16,7 @@ html{
 /*-- background img --*/
 header {
     position: relative;
-    background-image: url(background-banking-blur-404159.jpg);
- 
+    background-image: url("../img/background.jpg");
     /*-- height --*/
     height: 700px;  
     background-position: center;
@@ -38,15 +39,15 @@ header {
     list-style: none;
     float: right;
     padding-right: 40px;
-    font-weight: bolder;
-    display: block;}
+    font-weight: bolder;    
+
+}
 
 
-.HM { padding: 20px;}
+.list li { 
+    padding: 20px; 
+    display:inline-block;}
 
-.CT {padding: 20px;}
-
-.AB {padding: 20px;}
 
 
 
