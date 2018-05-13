@@ -1,11 +1,11 @@
-*{
-    margin: 0;
+* {
+    margin: auto;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: lato;
     font-size: 20px;
     font-weight: 300;
@@ -14,70 +14,165 @@ html{
 }
 
 /*-- background img --*/
+
 header {
     position: relative;
     background-image: url("../img/background.jpg");
+
     /*-- height --*/
-    height: 700px;  
+    height: 700px;
     background-position: center;
     background-size: cover;
     opacity: 0.5;
 
+
 }
-.hero{
+
+.hero {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 20%;
-    
-    
-}
+    font-weight: 900;
+    color: #0d285a;
 
- /*-- list --*/
-
-.list {
-    list-style: none;
-    float: right;
-    padding-right: 40px;
-    font-weight: bolder;    
 
 }
-
-
-.list li { 
-    padding: 20px; 
-    display:inline-block;}
-
-
 
 
 /*-- container --*/
 
+.container {
+    max-height: 1200px;
+}
 
-.container { padding: 0px;}
+/*-- Navigation list --*/
+
+.list {
+    list-style: none;
+    text-align: right;
+    padding-right: 40px;
+    font-weight: bolder;
+    background-color: #ed948b;
+    text-align: right;
+
+}
+
+
+.list li {
+    padding: 15px;
+    display: inline-block;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* Featured Brand section */
+
+.features{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: ;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.brand{
+    text-align: center;
+}
+
+img{
+    margin: 20px
+}
+
+
+/*first paragraph*/
+
+.firstparagraph {
+
+    text-align: center;
+    padding-top: 20px;
+}
+
+.WWD {
+    padding-bottom: 20px;
+}
+
+.makeup-pic {
+    border-radius: 20px;
+    width: 45%;
+    position: relative;
+
+    right: 350px;
+}
+
+
+.makeupphoto {
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    opacity: 0.5;
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+
+}
 
 
 
+/*mission statement*/
+
+.mission-statement {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+
+}
 
 
+/*footer section*/
 
- /*-- social media icon --*/
-.soc-med {
-    float: right;
-    padding-bottom: 40px;
-    padding-right: 30px
+footer {
+    background-color: #ed948b;
+    height: 250px;
+}
+
+.newsletter {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.form{
+    text-align: center;
+    padding-bottom: 10px;
+    
 }
 
 
 
 .copyryt {
-    font-size: 15px
+    width: 500px;
+    text-align: center;
+    top: 50px;
+    font-size: 10px;
+    padding-bottom: 10px;
 }
 
-.wwd {
-    padding-bottom: 20px;
+.cpr-span {
+    font-size: 13px;
+    color: seashell;
 }
 
-.first-P {
-    padding-bottom: 20%;
+
+.soc-med {
+    padding-bottom: 40px;
+    right: 40px;
+    top: 40px;
+    text-align: center;
 }
