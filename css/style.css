@@ -6,16 +6,26 @@
 }
 
 html {
-    font-family: lato;
+    font-family: Merriweather;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    background-color: beige
+    background-color: white;
 }
+
+
+
+/*-- container --*/
+
+.container {
+    width: 95%;
+}
+
+
 
 /*-- background img --*/
 
-header {
+.container .headindex {
     position: relative;
     background-image: url("../img/background.jpg");
 
@@ -23,28 +33,10 @@ header {
     height: 700px;
     background-position: center;
     background-size: cover;
-    opacity: 0.5;
-
-
-}
-
-.hero {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 20%;
-    font-weight: 900;
-    color: #0d285a;
-
+    opacity: 0.8;
 
 }
 
-
-/*-- container --*/
-
-.container {
-    max-height: 1200px;
-}
 
 /*-- Navigation list --*/
 
@@ -53,130 +45,358 @@ header {
     text-align: right;
     padding-right: 40px;
     font-weight: bolder;
-    background-color: #ed948b;
+    background-color: pink;
     text-align: right;
     display: block;
 }
 
 
-.list li {
-    padding: 15px;
-    display: inline-block;
-    
-}
-
-
-a {
+.list a {
     text-decoration: none;
 }
 
-.list li a:hover{
-    
-background-color: crimson;
+.list li {
+    padding: 15px;
+    display: inline-block;
+
 }
 
-/* Featured Brand section */
+.list li a:hover {
 
-.features{
+    background-color: crimson;
+    text-decoration: underline;
+}
+
+
+
+.active {
+
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+
+
+.list li a:hover {
+
+    background-color: cornsilk;
+    text-decoration: underline;
+}
+
+a.:visited {
+    color: white;
+}
+
+a:link {
+    color: blue;
+}
+
+.brand {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-family: ;
-    font-size: 28px;
-    font-weight: bold;
 }
 
-.brand{
-    text-align: center;
-}
-
-img{
+img {
     margin: 20px
 }
 
 
-/*first paragraph*/
 
-.firstparagraph {
 
+/*home page-H1*/
+
+.hero {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+    font-weight: 900;
+    color: #fe0100;
+
+
+}
+
+
+.hero h1:hover {
+
+    color: red;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+/* Featured Brand section */
+
+.features {
     text-align: center;
     padding-top: 20px;
-}
-
-.WWD {
     padding-bottom: 20px;
-}
-
-.makeup-pic {
-    border-radius: 20px;
-    width: 45%;
-    position: relative;
-
-    right: 350px;
-}
-
-
-.makeupphoto {
-    border: 1px solid rebeccapurple;
-    border-radius: 20px;
-    opacity: 0.5;
-    position: relative;
-    left: 350px;
-    bottom: 200px;
+    font-family: Muli;
+    font-size: 28px;
+    font-weight: bold;
 
 }
 
 
 
-/*mission statement*/
-
-.mission-statement {
+.brand {
     text-align: center;
+}
+
+.brand img {
+    margin-left: 150px;
+}
+
+.brandd {
+    text-align: center;
+}
+
+.brandd img {
+    margin-right: 150px;
+}
+
+
+
+/*ABOUT SECTION CSS CODES*/
+
+/*ABOUT-US CONTENT patagraphs*/
+
+/* Header for about page*/
+
+.container header {
     position: relative;
-    bottom: 70px;
+    background-image: url("../img/makeup.jpg");
+
+    /*-- height --*/
+    height: 400px;
+    background-position: initial;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+p {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 17px;
+    width: 600px;
+}
+
+
+
+/*H2's'*/
+
+h2 {
+    margin: 10px 10px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 40px;
+    font-size: 29px;
+}
+
+
+
+
+
+
+/*Amenities*/
+
+.products {
+    text-align: center;
+}
+
+
+.products img {
+    margin: 80px;
 
 }
+
+.products img:hover {
+    background-color: #e2a7a7;
+    border: 10px solid pink;
+}
+
+
+
+
+/*Hire section*/
+
+.hire {
+    width: auto;
+    padding-bottom: 40px;
+    background-color: pink;
+    height: 140px;
+}
+
+
+
+/*CONTACT US CSS SECTION*/
+
+/* contact form*/
+
+.contactform{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.field {
+
+    font-size: 12px;
+    display: inline;
+    padding: 9px 1px;
+    margin: 10px 500px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 220px;
+
+}
+
+.textfield {
+
+    font-size: 12px;
+    padding: 50px 0px;
+    margin: 10px 500px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 220px;
+}
+
+
+
+.contactbutton {
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(10, 33, 132, 0.58);
+    padding: 20px 20px;
+    margin-left:168px;
+    
+    
+   
+}
+
+.contactbutton:hover {
+    background-color: pink;
+    color: white;
+
+}
+/*note*/
+
+.map {
+    text-align: center;
+    padding: 40px 50px;
+
+
+}
+
 
 
 /*footer section*/
 
-footer {
-    background-color: #ed948b;
-    height: 250px;
+.foot {
+    background-color: pink;
+    height: 187px;
 }
 
-.newsletter {
+
+/*newsletter section */
+
+.newsletter p {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
     font-weight: bold;
 }
 
-.form{
+.form {
     text-align: center;
     padding-bottom: 10px;
-    
+
+}
+
+.indexfield {
+    font-size: 12px;
+    display: inline;
+    padding: 9px 1px;
+    margin: 10px auto;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 220px;
 }
 
 
+/*style the for button*/
 
-.copyryt {
+.buttons {
+
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    background-color: rgba(10, 33, 132, 0.58);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/*copyright section*/
+
+.copyryt p {
     width: 500px;
     text-align: center;
     top: 50px;
     font-size: 10px;
     padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .cpr-span {
     font-size: 13px;
-    color: seashell;
+    color: #fe0100;
 }
 
+
+/*social media icons*/
 
 .soc-med {
     padding-bottom: 40px;
     right: 40px;
     top: 40px;
     text-align: center;
+}
+
+
+
+
+
+
+/*phones that are 768px and under*/
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 180%;
+    }
+}
+
+
+/*phones that are 480px and under*/
+
+@media screen and (max-width: 480px) {
+    .content {
+        text-align: center;
+        margin: 20px 10px;
+
+    }
+
+    .container {
+        width: 180%;
+    }
 }
